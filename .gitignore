@@ -9,8 +9,9 @@ output*/
 .eval_out_*/
 validation_report.txt
 
-# real measurement data never belongs in this repo
-/data/
-/dataset/
-/*102Ah_*/
+# real measurement data is tracked via Git LFS (see .gitattributes)
+# /data/
+# /dataset/
+# /*102Ah_*/
 *.rar
+.DS_Store
